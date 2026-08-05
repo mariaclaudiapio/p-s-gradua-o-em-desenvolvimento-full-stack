@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class entrada_e_saida 
+public class EntradaSaida 
 {
     public static void main(String[] args)
     {
