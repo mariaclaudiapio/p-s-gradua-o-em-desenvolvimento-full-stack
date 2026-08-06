@@ -7,3 +7,7 @@
 ### Entrada de Dados
 
 Para criar um Scanner para inserção de dados em um código Java é preciso importar o Scanner, com o uso de `import java.util.Scanner;`
+
+### Estruturas de Decisão
+
+Para cenários com múltiplas decisões em sequência, podemos utilizar o `else if`, que combina o "senão" com um novo "se". Essa estrutura permite testar diversas condições **em cascata**, executando o bloco de código correspondente à primeira condição verdadeira.
