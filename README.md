@@ -15,8 +15,8 @@ Para cenários com múltiplas decisões em sequência, podemos utilizar o `else 
 ### Estruturas de Repetição
 
 Para um comando de programação que se repete em um número **conhecido** de vezes, o laço `for` é o mais adequado.
-Para um comando de programação que se repete em um número **desconhecido** de vezes, o laço `while`é o mais adequado.
- 
+Para um comando de programação que se repete em um número **desconhecido** de vezes, o laço `while`é o mais adequado.  
+
 ### Métodos
 
 * `public`: pode ser acessado por todas as classes;
