@@ -57,18 +57,61 @@
             <tbody>
                 <tr>
                     <td>Reserva de hotel</td>
-                    <td>R$150,00</td>
+                    <td>R$ 150,00</td>
                 </tr>
                 <tr>
                     <td>Compra de passagens</td>
-                    <td>R$100,00</td>
+                    <td>R$ 100,00</td>
                 </tr>
                 <tr>
                     <td>Aluguel de carros</td>
-                    <td>R$50,00</td>
+                    <td>R$ 50,00</td>
                 </tr>
             </tbody>            
         </table>
+    </section>
+    <br><br>
+    <!-- Formulários -->
+    <section>
+        <h2>Orçamento</h2>
+        <form method="GET" action="">
+            <fieldset>
+                <legend>Dados da viagem</legend>
+                <label>Nome</label>
+                <input type="text" name="nome"><br><br>
+    
+                <label>Email</label>
+                <input type="email" name="email" required><br><br>
+    
+                <label>Data de ida</label><br>
+                <input type="date" name="dataIda"><br><br>
+    
+                <label>Data de volta</label><br>
+                <input type="date" name="dataVolta"><br><br>
+    
+                <label>Quantidade de Pessoas</label><br>
+                <input type="number" name="quantidadePessoas"><br><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label>
+                    <input type="checkbox" name="passagens" value="passagens">Compra de passagens <br>
+                </label>
+                <label>
+                    <input type="checkbox" name="hospedagem" value="hospedagem">Reserva de hotel <br>
+                </label>
+                <label>
+                    <input type="checkbox" name="aluguelVeiculos" value="aluguelVeiculos">Aluguel de veículos <br><br>
+                </label>
+            </fieldset>
+
+
+
+            <label>Comentário</label><br>
+            <textarea rows="5" name="comentario"></textarea><br>
+            <button>Salvar</button>
+        </form>        
     </section>
     <br><br>
     <footer>Desenvolvido por Maria Cláudia</footer>
