@@ -106,7 +106,23 @@
                 </label>
             </fieldset>
 
+            <fieldset>
+                <legend>Escolha a forma de pagamento:</legend>
+                <label>
+                    <br><input type="radio" name="pagamento" value="cartaoCredito">Cartão de Crédito
+                    <br><input type="radio" name="pagamento" value="dinheiro">Dinheiro
+                    <br><input type="radio" name="pagamento" value="pix">Pix
+                </label>
+            </fieldset>
 
+            <fieldset>
+                <legend>Escolha um prazo para o pagamento</legend>
+                <select name="prazo">
+                    <option value="aVista">À vista</option>
+                    <option value="5x">5 vezes sem juros</option>
+                    <option value="10x" selected>10 vezes com juros</option>
+                </select>
+            </fieldset>
 
             <label>Comentário</label><br>
             <textarea rows="5" name="comentario"></textarea><br>
