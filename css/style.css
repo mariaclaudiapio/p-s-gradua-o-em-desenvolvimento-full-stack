@@ -90,13 +90,11 @@ table thead th
     color: white;
 }
 
-#pacotes .figuras figure
+footer
 {
-    display: inline-block;
-}
-
-#pacotes .figuras, 
-#pacotes .videos
-{
+    background-color: #606060;
+    margin: 0;
+    padding: 0.5rem;
     text-align: center;
+    color: white;
 }
