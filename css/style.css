@@ -36,33 +36,6 @@ h2
     font-weight: 600;
 }
 
-nav li a /* evita a atribuição de estilo a todos os links da página */
-{
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-nav li
-{
-    float: left;
-}
-
-nav ul
-{
-    float: right;
-    list-style: none;
-}
-
-nav
-{
-    font-size: 12px;
-    letter-spacing: 4px;
-    height: 50px;    
-    padding-right: 40px;
-    background-color: #606060;
-}
-
 table
 {
     width: 100%;
