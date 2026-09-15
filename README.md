@@ -22,4 +22,7 @@ Para um comando de programação que se repete em um número **desconhecido** de
 * `public`: pode ser acessado por todas as classes;
 * `void`: não oferece retorno.
 
-## HTML e CSS
+## Javascript
+
+* É case-sensitive
+* Apesar de não ser obrigatório, é recomendável usar o `;` após as sentenças de código.
